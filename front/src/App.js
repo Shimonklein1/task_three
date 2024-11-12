@@ -109,7 +109,7 @@ function App() {
         });
       }).catch((error) => {
         Swal.fire({
-          title: 'Error',
+          title: 'Error!',
           text: 'Failed to add meeting',
           icon: 'error',
           confirmButtonText: 'OK'
